@@ -3,6 +3,7 @@ import ServicesSection from '../Components/Sections/ServicesSection/ServicesSect
 
 export default function page() {
   return (
-    <ServicesSection />
+    // <ServicesSection />
+    <div className='flex justify-center items-center min-h-[40vh] font-extrabold text-[38px]'>Job Opportunities</div>
   )
 }

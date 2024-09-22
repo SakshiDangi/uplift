@@ -31,7 +31,7 @@ function HeroSection() {
     <section className="relative h-full w-full">
       <div className="mt-[7rem] md:mt-[7rem] px-[18rem] mq-sections">
         <div className="gradient-purple mb-4 py-2 px-4 rounded-tl-[12px] rounded-br-[12px]">
-          <p className="nav-items font-medium text-white">Job Assistance Provider</p>
+          <p className="nav-items font-medium text-white">Assistance Provider</p>
         </div>
         <h1 className="text-content text-3xl md:text-6xl">
           Elevate Your Future with Expert Guidance & make your dreams true.

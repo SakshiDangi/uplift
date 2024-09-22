@@ -3,7 +3,6 @@ import Title from "../../Components/Title/Title";
 import { check } from "@/utils/Icons";
 import Button from "../Button/Button";
 import Image from "next/image";
-import { aboutStats } from "@/utils/utils";
 
 function AboutSection() {
   return (
@@ -12,17 +11,10 @@ function AboutSection() {
       <div className="mt-[5rem] grid grid-cols-1 gap-12 lg:grid-cols-2">
         <div>
           <h1 className="text-2xl">
-            We're a team of passionate creators here to help you build and grow
-            your digital products.
+            Welcome to Uplift - Our vision is to break down barriers to education and create jon/startup opportunities by reaching millions of youngsters each year.
           </h1>
           <p className="py-8 text-gray-300">
-            Our team of developers, designers, and innovators is dedicated to
-            transforming your ideas into impactful digital products. We combine
-            creativity with technical expertise to deliver solutions that exceed
-            expectations. With a focus on user experience, cutting-edge
-            technology, and strategic growth, we ensure your digital products
-            thrive. Let us help turn your vision into a reality that resonates
-            with your audience and drives success.
+            We deliver bite-sized learning experiences designed to fit easily into daily life. Whether you're looking to get promoted at work, support your children in their career, a student looking for extra study materials, or simply passionate about a subject, we are open. There are no requirements to access our free materials.
           </p>
 
           <ul className="flex flex-col gap-4 text-gray-200">
@@ -30,25 +22,25 @@ function AboutSection() {
               <span className="w-8 h-8 flex items-center justify-center border-2 border-gray-300 rounded-md">
                 {check}
               </span>
-              <span>Digital Product Development</span>
+              <span>Became A Member</span>
             </li>
             <li className="flex text-[1.25rem] items-center gap-3 font-bold">
               <span className="w-8 h-8 flex items-center justify-center border-2 border-gray-300 rounded-md">
                 {check}
               </span>
-              <span>User Experience Design</span>
+              <span>Interview Preparations</span>
             </li>
             <li className="flex text-[1.25rem] items-center gap-3 font-bold text-gray-200">
               <span className="w-8 h-8 flex items-center justify-center border-2 border-gray-200 rounded-md">
                 {check}
               </span>
-              <span>Cutting-Edge Technology</span>
+              <span>Startup Ideas</span>
             </li>
             <li className="flex text-[1.25rem] items-center gap-3 font-bold text-gray-200">
               <span className="w-8 h-8 flex items-center justify-center border-2 border-gray-200 rounded-md">
                 {check}
               </span>
-              <span>Strategic Growth</span>
+              <span>Business Studies</span>
             </li>
           </ul>
           <div className="mt-8">

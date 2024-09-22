@@ -79,26 +79,6 @@ export const services: IService[] = [
   },
 ];
 
-export const aboutStats = [
-  {
-    title: "Happy Customers",
-    count: 100,
-    ff: bungee.className,
-  },
-  {
-    title: "Projects Completed",
-    count: 200,
-  },
-  {
-    title: "Years in Business",
-    count: 10,
-    ff: bungee.className,
-  },
-  {
-    title: "Team Members",
-    count: 50,
-  },
-];
 
 export const baseText = [
   {
@@ -109,118 +89,64 @@ export const baseText = [
   { text: "SEO Optimization", outline: bungee.className },
 ];
 
-export const awards = [
-  {
-    date: "January 2024",
-    companyLogo: "/images/logos/logo--behance.png",
-    category: "Best UX",
-    link: "https://www.behance.net/",
-  },
-  {
-    date: "June 2021",
-    companyLogo: "/images/logos/logo--awwwards.png",
-    category: "Site of the Day",
-    link: "https://www.awwwards.com/",
-  },
-  {
-    date: "March 2022",
-    companyLogo: "/images/logos/logo--dribble.png",
-    category: "Best Design",
-    link: "https://dribbble.com/",
-  },
-  {
-    date: "June 2021",
-    companyLogo: "/images/logos/logo--awwwards.png",
-    category: "Site of the Day",
-    link: "https://www.awwwards.com/",
-  },
-];
 
 export const faqs = [
   {
-    question: "What is the best way to reach you?",
+    question: "What is community development?",
     answer:
-      "The best way to reach us is by sending us an email at testmail@gmail.com.",
+      "Community development is a process that empowers individuals and groups within a community to work together to identify and address their common needs and goals. It involves promoting social justice, improving quality of life, and creating sustainable change.",
   },
   {
-    question: "What services do you offer?",
+    question: "Why is community development important?",
     answer:
-      "We offer a wide range of services including web development, mobile app development, and digital marketing.",
+      "Community development is important because it fosters active participation, local decision-making, and ownership among community members. It strengthens social bonds, enhances community resilience, and creates a sense of belonging and empowerment.",
   },
   {
-    question: "How long does it take to complete a project?",
+    question: "What are the key principles of community development?",
     answer:
-      "The time it takes to complete a project depends on the size and complexity of the project. We will provide you with a timeline once we have a better understanding of your requirements.",
+      "The key principles of community development include inclusivity, participation, empowerment, collaboration, and sustainability. These principles ensure that community members have a voice, agency, and access to resources and opportunities for growth.",
   },
   {
-    question: "What is your pricing model?",
+    question: "What are some common community development initiatives?",
     answer:
-      "Our pricing model is based on the scope and complexity of the project. We will provide you with a detailed quote once we have a better understanding of your requirements.",
+      "Common community development initiatives include affordable housing projects, youth programs, education and skill-building initiatives, environmental sustainability projects, healthcare access programs, and cultural and arts programs.",
   },
   {
-    question: "Do you offer maintenance and support services?",
+    question: "How can individuals get involved in community development?",
     answer:
-      "Yes, we offer maintenance and support services to ensure that your digital products continue to perform optimally.",
+      "Individuals can get involved in community development by volunteering their time and skills, participating in community organizations and groups, attending town hall meetings, supporting local businesses, and advocating for social and economic justice.",
   },
   {
-    question: "What technologies do you work with?",
+    question: "How can we reach you?",
     answer:
-      "We work with a wide range of technologies including React, Angular, Node.js, Python, and more.",
+      "You can contact us by contact us page or email us on uplift@gmail.com.",
   },
 ];
 
-export const footerNavLinks = [
-  {
-    title: "About Us",
-    links: [
-      {
-        name: "Home",
-        url: "/",
-      },
-      {
-        name: "Services",
-        url: "#",
-      },
-      {
-        name: "About",
-        url: "#",
-      },
-      {
-        name: "Portfolio",
-        url: "#",
-      },
-      {
-        name: "FAQs",
-        url: "#",
-      },
-      {
-        name: "Contact",
-        url: "#",
-      },
-    ],
-  },
+
+[
   {
     title: "Services",
     links: [
       {
-        name: "Web Development",
-        url: "/web-development",
+        name: "Job Recruitment Assistance",
+        url: "/job",
       },
       {
-        name: "Mobile Development",
-        url: "/mobile-development",
+        name: "Strengthened communities",
+        url: "/communities",
       },
       {
-        name: "UI/UX Design",
-        url: "/ui-ux-design",
+        name: "Partnership with public bodies",
+        url: "/partnership",
       },
       {
-        name: "SEO",
-        url: "/seo",
+        name: "Startup Ideas",
+        url: "/startup",
       },
       {
-        name: "Social Media Marketing",
-        url: "/social-media-marketing",
+        name: "Science & Tech",
+        url: "/tech",
       },
     ],
   },
@@ -229,11 +155,11 @@ export const footerNavLinks = [
     links: [
       {
         name: "Email",
-        email: "info@testmail.com",
+        email: "uplift@testmail.com",
       },
       {
         name: "Phone",
-        phone: "+1234567890",
+        phone: "+91 123 456 7890",
       },
       {
         name: "Address",
